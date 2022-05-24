@@ -175,3 +175,10 @@ toolbarspring {
 #identity-box[pageproxystate="valid"].extensionPage > .identity-box-button[open=true] {
   background-color: hsla(0,0%,70%,.3) !important;
 }
+
+urlbarView,
+.urlbar-results,
+.urlbarView-row,
+#urlbar {
+	transition: all 0.175s ease !important;
+}

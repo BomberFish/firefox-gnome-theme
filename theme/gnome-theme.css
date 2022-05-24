@@ -28,9 +28,11 @@
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
 /* Set theme version text in customization panel */
+@supports not -moz-bool-pref("gnomeTheme.noBranding") {
 #customization-footer::before {
 	background: url(../icon.svg) no-repeat;
 	background-size: contain;
 	content: "Firefox GNOME theme v100";
 	padding: 9px 9px 9px 50px;
+}
 }

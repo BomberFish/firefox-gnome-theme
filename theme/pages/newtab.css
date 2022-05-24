@@ -6,4 +6,8 @@
         --newtab-background-color-secondary: var(--gnome-menu-background) !important;
         --newtab-primary-action-background: var(--gnome-accent) !important;
     }
+
+    .search-handoff-button {
+        border-radius: 12px !important
+    }
 }

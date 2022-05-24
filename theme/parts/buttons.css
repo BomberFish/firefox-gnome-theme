@@ -320,3 +320,8 @@ button.popup-notification-primary-button:active,
 #PanelUI-panic-view-button:active {
 	background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)) !important;
 }
+
+toolbarbutton,
+toolbarbutton:hover {
+	transition: background-color 0.15s ease !important;
+}
