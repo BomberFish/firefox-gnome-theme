@@ -204,7 +204,7 @@ Optional features can be enabled by creating new `boolean` preferences in `about
 
 - **Remove GNOME Theme Branding from customize menu** `gnomeTheme.noBranding`
 	
-	**FORK EXCLUSIVE**
+	*FORK EXCLUSIVE*
 	Removes GNOME Theme branding from the customize menu.
 
 ## Known bugs
