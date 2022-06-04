@@ -278,7 +278,6 @@ panelview > toolbarseparator:not([orient="vertical"]),
 }
 
 #titleText {
-	font-family: Cantarell !important;
 	font-weight: 950!important;
 	font-size: 1.5rem;
 }
