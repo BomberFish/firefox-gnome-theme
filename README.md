@@ -2,7 +2,7 @@
 
 # Firefox GNOME theme
 
-[![GitHub](https://img.shields.io/github/license/rafaelmardojai/firefox-gnome-theme.svg)](https://github.com/rafaelmardojai/firefox-gnome-theme/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/BomberFish/firefox-gnome-theme.svg)](https://github.com/BomberFish/firefox-gnome-theme/blob/master/LICENSE)
 [![Donate](https://img.shields.io/badge/PayPal-Donate-gray.svg?style=flat&logo=paypal&colorA=0071bb&logoColor=fff)](https://paypal.me/RafaelMardojaiCM)
 [![Liberapay](https://img.shields.io/liberapay/receives/rafaelmardojai.svg?logo=liberapay)](https://liberapay.com/rafaelmardojai/donate)
 
@@ -37,7 +37,7 @@ We also have the `beta` branch for fixes only aplicable to the current Firefox b
 1. Clone this repo and enter folder:
 	
 	```sh
-	git clone https://github.com/rafaelmardojai/firefox-gnome-theme && cd firefox-gnome-theme
+	git clone https://github.com/BomberFish/firefox-gnome-theme && cd firefox-gnome-theme
 	```
 2. Checkout a git branch or tag if needed, otherwise use `master` and ignore this step. 
 	```sh
@@ -78,7 +78,7 @@ We also have the `beta` branch for fixes only aplicable to the current Firefox b
 You can also install this theme with one command:
 
 ```sh
-curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
+curl -s -o- https://raw.githubusercontent.com/BomberFish/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
 ```
 
 It will download the latest version of the theme and run the auto installation script for you.
@@ -100,7 +100,7 @@ It will download the latest version of the theme and run the auto installation s
 5. Clone this repo to a subdirectory:
 
 	```sh
-	git clone https://github.com/rafaelmardojai/firefox-gnome-theme.git
+	git clone https://github.com/BomberFish/firefox-gnome-theme.git
 	```
 
 6. Create single-line user CSS files if non-existent or empty (at least one line is needed for `sed`):
