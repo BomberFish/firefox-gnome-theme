@@ -12,6 +12,11 @@
 
 This theme follows lastest GNOME Adwaita style.
 
+> ### Disclaimer:
+> Be aware that this theme might do things that are not supported by upstream Firefox. If you face an issue while using this theme, report it here first or test if it is repoducible in vanilla Firefox. 
+>
+> If you are a software distribution maintainer, please do not ship this changes by default to your users unless you made extremely clear that they are using a modified version of Firefox UI.
+
 ![Screenshot of the theme](screenshot.png)
 
 ## Description
@@ -24,7 +29,7 @@ Matrix room: [#firefox-gnome-theme:matrix.org](https://matrix.to/#/#firefox-gnom
 
 ### Firefox versions support
 
-The `master` branch of this repo supports the current Firefox stable release `100`.
+The `master` branch of this repo supports the current Firefox stable release `102`.
 
 Theme versions complatible with older Firefox releases are preserved as git tags. Use the `v78.1` tag for Firefox 78 ESR support.
 
@@ -107,14 +112,16 @@ It will download the latest version of the theme and run the auto installation s
 
 	```sh
 	[[ -s userChrome.css ]] || echo >> userChrome.css
+	[[ -s userContent.css ]] || echo >> userContent.css
 	```
 
 7. Import this theme at the beginning of the CSS files (all `@import`s must come before any existing `@namespace` declarations):
 
 	```sh
 	sed -i '1s/^/@import "firefox-gnome-theme\/userChrome.css";\n/' userChrome.css
+	sed -i '1s/^/@import "firefox-gnome-theme\/userContent.css";\n/' userContent.css
 	```
-
+	
 8. Symlink preferences file:
 
 	```sh
@@ -152,7 +159,6 @@ You can follow the installation script steps again to update the theme.
 ## Uninstalling
 1. Go to your profile folder. (Go to `about:support` in Firefox > Application Basics > Profile Directory > Open Directory)
 2. Remove `chrome` folder.
-
 
 ## Enabling optional features
 Optional features can be enabled by creating new `boolean` preferences in `about:config`.
